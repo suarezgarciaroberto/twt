@@ -1,0 +1,92 @@
+/* PROJECTS TAB */
+#proyectos-form {
+  display: grid;
+  width: auto;
+  grid-template-areas: "sectionTitle sectionTitle"
+  "titulo tiempo"
+  "tecnologias descripcion"
+  "blank guardar";
+  grid-gap: 1em;
+}
+#proyectos-form h3 {
+  grid-area: sectionTitle;
+}
+#titulo-group {
+  grid-area: titulo;
+}
+#tiempo-group {
+  grid-area: tiempo;
+}
+#tecnologias-group {
+  grid-area: tecnologias;
+}
+#descripcion-group {
+  grid-area: descripcion;
+}
+#proyectos-save-group {
+  grid-area: guardar;
+}
+.techs-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.tech-checkbox {
+  min-width: auto !important;
+  width: auto !important;
+}
+.checkbox-group {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.checkbox-group .fab {
+  margin-left: .25em;
+  margin-top: .5em;
+}
+#project-descripcion-input {
+  resize: none;
+  height: 150px;
+}
+/* DATES TAB */
+.date-client-name {
+  color: cadetblue;
+}
+/* NEWS TAB */
+#noticias-form {
+  display: grid;
+  grid-template-areas: "sectionTitle sectionTitle"
+  "titular fecha"
+  "resumen resumen"
+  "contenido contenido"
+  "guardar guardar";
+  grid-gap: 1em;
+}
+#noticias-form h3 {
+  grid-area: sectionTitle;
+}
+#titular-group {
+  grid-area: titular;
+}
+#notice-img {
+  height: 50px;
+}
+#fecha-group {
+  grid-area: fecha;
+}
+#resumen-group {
+  grid-area: resumen;
+}
+#resumen-input {
+  resize: none;
+  height: 130px;
+}
+#contenido-group {
+  grid-area: contenido;
+}
+#contenido-input {
+  resize: none;
+  height: 270px;
+}
+#noticias-save-group {
+  grid-area: guardar;
+}

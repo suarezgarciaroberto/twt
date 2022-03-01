@@ -1,0 +1,170 @@
+/* MAIN STRUCTURE */
+#logo {
+  height: 60px;
+  width: 60px;
+}
+#login-form {
+  width: 18rem;
+}
+#indexMainBlock {
+  margin-top: 102px;
+  margin-bottom: 3em;
+  width: 900px;
+  min-height: calc(100vh - 102px);
+}
+footer {
+	font-size: 0.8em;
+	color: #fff;
+	height: 60px;
+}
+footer a {
+  color: #fff;
+}
+#copyR {
+	display: flex;
+	justify-content: center;
+}
+.hide {
+  display: none !important;
+}
+#error-login-alert {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  margin-left: calc(-5%);
+  z-index: 1000;
+}
+.form-group input {
+  min-width: 350px;
+}
+.form-group input[type=radio],
+.form-group input[type=checkbox]{
+  min-width: unset;
+}
+#login-form input {
+  min-width: unset;
+}
+
+/* SECTION HOME */
+.home-container {
+  display: flex;
+}
+.presentation-container {
+  width: 90%;
+}
+.notices-list {
+  margin-left: 1em;
+  max-width: 33%;
+  border-left: 1px solid #999;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.notices-list h3 {
+  align-self: center;
+}
+.notice-container h2 {
+  text-align: center;
+}
+.notice-container p {
+  margin-top: 1em;
+}
+.notice-img {
+  height: 500px;
+  width: calc(100vw - 60%);
+  object-fit: cover;
+}
+.news-link {
+  border-bottom: 1px solid #999;
+  padding: 10px;
+  cursor: pointer;
+}
+.news-link:hover {
+  background-color: #eee;
+}
+.close-notice{
+  cursor: pointer;
+  position: relative;
+  float: right;
+}
+.close-notice-icon {
+  font-size: 1.5em;
+}
+
+/* SECTION: PROJECTS */
+#index-projects-container {
+  display: flex;
+  flex-direction: column;
+}
+.thumbnails-container {
+  width: 900px;
+  align-self: center;
+}
+.thumbnails-inner-container {
+  display: flex;
+  flex: 0 1 auto;
+  flex-wrap: wrap;
+}
+.thumb-img {
+  object-fit: cover;
+  width: 300px;
+  height: 300px;
+  transition: transform .2s;
+}
+.thumb-img:hover {
+  transform: scale(1.1);
+}
+.modal-project-techs {
+  margin-bottom: .5em;
+}
+.modal-project-techs i {
+  margin-right: .75em;
+}
+.special-label {
+  font-weight: 500;
+}
+.carousel-project-img {
+  object-fit: cover;
+  object-position: center;
+  width: 750px;
+  height: 400px;
+}
+.modal-dialog {
+  max-width: 800px !important;
+}
+.carousel-container {
+  display: flex;
+  flex-direction: column;
+}
+.carousel {
+  align-self: center;
+}
+
+/* SECTION: CONTACT */
+.mapiframe {
+	width: 100%;
+	height: 415px;
+}
+#whoweare-card-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+#whoweare-card-header-bg {
+	width: 100%;
+	height: 400px;
+	background-image: url("../images/developers.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#whoweare-card-header h3 {
+	color: white;
+	text-align: center;
+	position: absolute;
+}
+#howtogoDiv {
+	justify-content: flex-end;
+	align-items: flex-end;
+}
