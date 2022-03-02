@@ -1,6 +1,6 @@
 <?php 
-include_once $_SERVER["DOCUMENT_ROOT"]."/twt/repository/database.php";
-include_once "../models/users_model.php";
+include_once dirname(__DIR__,1)."/repository/database.php";
+include_once dirname(__DIR__,1)."/models/users_model.php";
 
 if(isset($_SERVER['HTTP_SESSION_ACTION'])){
   $session_controller = new SessionController();

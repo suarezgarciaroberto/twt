@@ -1,6 +1,6 @@
 <?php 
-include_once "./models/news_model.php";
-include_once "./models/projects_model.php";
+include_once dirname(__DIR__,1)."/models/news_model.php";
+include_once dirname(__DIR__,1)."/models/projects_model.php";
 
 class IndexController{
   private $news;
