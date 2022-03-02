@@ -1,0 +1,12 @@
+{
+    "name": "robertosuarezgarcia/twt",
+    "description": "Learning project",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Rober",
+            "email": "suarezgarciaroberto@hotmail.com"
+        }
+    ],
+    "require": {}
+}
