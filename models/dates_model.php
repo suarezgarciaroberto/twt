@@ -1,5 +1,5 @@
 <?php
-include_once $_SERVER["DOCUMENT_ROOT"]."/twt/repository/database.php";
+include_once dirname(__DIR__,1)."/repository/database.php";
 class DatesModel{
   private $conn;
   private $columns = "`clientid`,`client`,`asunto`,`fecha`,`lugar`,`hora`";
