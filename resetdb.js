@@ -1,5 +1,6 @@
 var fs = require('fs');
 var mysql = require('mysql');
+console.log(process.env.JAWSDL_URL);
 var conn = mysql.createConnection(process.env.JAWSDL_URL);
 
 conn.connect();
