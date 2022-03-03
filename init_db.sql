@@ -54,5 +54,5 @@ INSERT INTO `noticias` (`titular`, `resumen`, `contenido`, `fecha`) VALUES
 ('Inteligencia artificial', 'Nos adentramos en un mundo totalmente nuevo', 'Debido al auge de la inteligencia artificial en los últimos años, hemos decidido aprender a usarla en nuestros proyectos, aunque aún estamos a la espera de poder implementarla en alguno, consideramos que hemos trasteado lo suficiente como para estar preparados para lanzarnos a la aventura!', '2020'),
 ('Nuevo equipamiento', 'Nos complace anunciar nuestra renovación de equipos para desarrollo', 'Hemos decidido hacer una inversión en infraestructura debido a que cada miembro del equipo utilizaba su ordenador personal, con las diferencias de características que esto conlleva para el equipo en su conjunto. Hemos decidido adquirir un NAS para tener todos nuestros archivos centralizados y seguros, además de nuevos ordenadores sobremesa y portátiles, para que nuestros trabajadores se sientan libres de trabajar tanto en la oficina como en casa, o incluso en otro país!', '2021');
 
-INSERT INTO `citas` (`clientid`, `asunto`, `fecha`, `lugar`, `hora`) values
-(2,'Presentación del proyecto','2022-04-28','telematica','10:30:00');
+INSERT INTO `citas` (`clientid`,`client`, `asunto`, `fecha`, `lugar`, `hora`) values
+(2,'Lola','Presentación del proyecto','2022-04-28','telematica','10:30:00');
