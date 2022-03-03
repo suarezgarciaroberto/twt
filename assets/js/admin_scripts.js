@@ -70,6 +70,7 @@ function readDataFromDB(form,data){
 
 function readTechsCheckboxes(form,data){
   var techs = data["tecnologias"].split("|")
+  console.log(data)
   $(techs).each(function(i,techName){
     $(form).find("input[type=checkbox][name="+techName+"]").prop("checked",true)
   })
