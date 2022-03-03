@@ -4,21 +4,22 @@
 
 ![Image_text](https://github.com/suarezgarciaroberto/twt/blob/master/assets/images/logo-300.png)
 
-<div align="center">
+  <div align="center">
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+  ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+  ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+  ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+  ![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+  ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-</div>
-
-</div>
+  </div>
 
 Este proyecto forma parte de una de las tareas del <a href="https://www.masterd.es/master-en-programacion-web-y-movil">máster en programación multiplataforma</a> de MasterD.
+
+</div>
+
 
 ## **Tabla de contenidos**
 
@@ -27,8 +28,8 @@ Este proyecto forma parte de una de las tareas del <a href="https://www.masterd.
   - [**Información general**](#información-general)
   - [**Objetivo de la tarea**](#objetivo-de-la-tarea)
   - [**Realización de los objetivos**](#realización-de-los-objetivos)
-  - [**Demo**](#demo)
   - [**Capturas de pantalla**](#capturas-de-pantalla)
+  - [**Demo**](#demo)
   - [**Local setup**](#local-setup)
   - [**Conclusiones**](#conclusiones)
 
@@ -67,6 +68,19 @@ Basándome en esto, realicé la tarea que se muestra en este repositorio cumplie
 - Se utilizó _PASSWORD_DEFAULT_ para el cifrado de las contraseñas ya que utiliza por defecto el algoritmo _bcrypt_. Además, el uso de _PASSWORD_DEFAULT_ resulta beneficioso ya que esta constante está diseñada para cambiar siempre que se añada un algoritmo nuevo y más fuerte a PHP. <a href="https://www.php.net/manual/es/function.password-hash.php">Fuente</a>.
 - Se añadió la funcionalidad de que un usuario creado desde la sección administrativa tenga la contraseña _"password"_ por defecto.
 
+## **Capturas de pantalla**
+
+<table style="border: none;">
+  <tr>
+    <td><img src="readme_images/home_screenshot.png" width="350" /><br><i>Página principal</i></td>
+    <td><img src="readme_images/projects_screenshot.png" width="350" /><br><i>Sección de proyectos</i></td>
+  </tr>
+  <tr>
+    <td><img src="readme_images/user_screenshot.png" width="350" /><br><i>Sección de usuario</i></td>
+    <td><img src="readme_images/admin_screenshot.png" width="350" /><br><i>Sección administrativa</i></td>
+  </tr>
+</table>
+
 ## **Demo**
 
 ![Heroku](https://pyheroku-badge.herokuapp.com/?app=theworkertree&style=flat) <a href="https://theworkertree.herokuapp.com/">The Worker Tree</a>
@@ -75,14 +89,6 @@ Usuarios de prueba:
 
 - <p>admin@admin.com -- <i>admin123</i></p>
 - <p>lola@user.com -- <i>lola123</i></p>
-
-## **Capturas de pantalla**
-
-![Screenshot](https://github.com/suarezgarciaroberto/twt/blob/master/readme_images/home_screenshot.png)
-![Screenshot](https://github.com/suarezgarciaroberto/twt/blob/master/readme_images/projects_screenshot.png)
-
-![Screenshot](https://github.com/suarezgarciaroberto/twt/blob/master/readme_images/user_screenshot.png)
-![Screenshot](https://github.com/suarezgarciaroberto/twt/blob/master/readme_images/admin_screenshot.png)
 
 ## **Local setup**
 
