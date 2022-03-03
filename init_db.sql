@@ -1,11 +1,11 @@
-create table citas (
-  id int not null primary key auto_increment,
-  clientid int not null,
-  client text not null,
-  asunto text not null,
-  fecha date not null,
-  lugar text not null,
-  hora time not null
+create table `citas` (
+  `id` int not null primary key auto_increment,
+  `clientid` int not null,
+  `client` text not null,
+  `asunto` text not null,
+  `fecha` date not null,
+  `lugar` text not null,
+  `hora` time not null
 );
 
 create table noticias (
