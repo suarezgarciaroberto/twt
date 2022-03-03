@@ -18,7 +18,7 @@
         <span class="close-notice"><span class="close-notice-icon">&times;</span></span>
         <h2><?php echo $data[$i]['titular'];?></h2>
         <h5><?php echo $data[$i]['resumen'];?> - <?php echo $data[$i]['fecha'];?></h5>
-        <!-- <img class="notice-img" src="./assets/images/noticias/<?php echo $data[$i]['titular'];?>.jpg" alt="<?php echo $data[$i]['titular'];?>"> -->
+        <img class="notice-img" src="./assets/images/noticias/<?php echo $data[$i]['titular'];?>.jpg" alt="<?php echo $data[$i]['titular'];?>">
         <p><?php echo $data[$i]['contenido'];?></p>
       </div>
       <?php 
