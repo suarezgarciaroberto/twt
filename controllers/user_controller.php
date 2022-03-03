@@ -76,7 +76,12 @@ class UserController{
     }
     switch ($action) {
       case 'getDisabledDates':
-        echo json_encode($this->dates->getDisabledDates());
+        $dates_given = $this->dates->getDisabledDates();
+        if($dates_given != null){
+          echo json_encode($dates_given);        
+        }else{
+          echo "No hay citas programadas.";
+        }
         break;
       case 'getDisabledHours':
         echo json_encode($this->dates->getAvailableHoursByDate($_POST));
