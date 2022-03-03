@@ -1,29 +1,3 @@
-create table usuarios (
-  id int not null primary key auto_increment,
-  nombre text not null,
-  apellidos text not null,
-  email text not null,
-  password text not null,
-  telefono int not null,
-  role text not null
-);
-
-create table proyectos (
-  id int not null primary key auto_increment,
-  titulo text not null,
-  descripcion longtext not null,
-  tecnologias text not null,
-  tiempo text not null
-);
-
-create table noticias (
-  id int not null primary key auto_increment,
-  titular text not null,
-  resumen mediumtext not null,
-  contenido longtext not null,
-  fecha text not null
-);
-
 create table citas (
   id int not null primary key auto_increment,
   clientid int not null,
@@ -34,9 +8,35 @@ create table citas (
   hora time not null
 );
 
+create table noticias (
+  id int not null primary key auto_increment,
+  titular text not null,
+  resumen mediumtext not null,
+  contenido longtext not null,
+  fecha text not null
+);
+
+create table proyectos (
+  id int not null primary key auto_increment,
+  titulo text not null,
+  descripcion longtext not null,
+  tecnologias text not null,
+  tiempo text not null
+);
+
+create table usuarios (
+  id int not null primary key auto_increment,
+  nombre text not null,
+  apellidos text not null,
+  email text not null,
+  password text not null,
+  telefono int not null,
+  role text not null
+);
 
 INSERT INTO usuarios (nombre, apellidos, email, password, telefono, role) VALUES
-('Administrador', 'admin admin', 'admin@admin.com', '$2y$10$SO2Ndmi4MDfy8IXXMVTleOCHNXKEqgq0CtLUNGsxxEta/hOT1aCwa', 123456789, 'admin');
+('Administrador', 'admin admin', 'admin@admin.com', '$2y$10$SO2Ndmi4MDfy8IXXMVTleOCHNXKEqgq0CtLUNGsxxEta/hOT1aCwa', 123456789, 'admin'),
+('Lola', 'Flores Campos', 'lola@user.com', '$2y$10$YGi9FDku/oJruy8YSRy/0ulOJj1R8XhnvY/J5wscUA04GFiC58rr6', 123456789, 'user');
 
 INSERT INTO proyectos (titulo, descripcion, tecnologias, tiempo) VALUES
 ('FinPerApp', 'Aplicación para gestionar las finanzas personales de una manera adaptada a las necesidades de cada uno. Cuenta con numerosas opciones de personalización, además de sincronización con la nube.', 'android|css3|github|html5|apple|node|react', '2 meses'),
