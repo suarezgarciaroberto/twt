@@ -51,16 +51,20 @@ class DatesModel{
   public function getDisabledDates(){
     $sql = "SELECT `fecha` FROM `citas` WHERE 1";
     $all_dates_registers = $this->returnDataFromColumn($sql,"fecha");
-    $unique_dates_registers = array_unique($all_dates_registers);
-    $unique_dates_registers_without_key = array_values($unique_dates_registers);
-    $disabled_dates = array();
-    foreach($unique_dates_registers_without_key as $date){
-      $hours_counter = $this->getHoursAssignedToDate($date);
-      if($hours_counter > 7){
-        $disabled_dates[] = $date;
+    if($all_dates_registers == null){
+      return "No hay citas programadas";
+    }else{
+      $unique_dates_registers = array_unique($all_dates_registers);
+      $unique_dates_registers_without_key = array_values($unique_dates_registers);
+      $disabled_dates = array();
+      foreach($unique_dates_registers_without_key as $date){
+        $hours_counter = $this->getHoursAssignedToDate($date);
+        if($hours_counter > 7){
+          $disabled_dates[] = $date;
+        }
       }
+      return $disabled_dates;
     }
-    return $disabled_dates;
   }
 
   /**
