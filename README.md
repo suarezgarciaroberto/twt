@@ -1,5 +1,23 @@
 # **The Worker Tree**
 
+<div align="center">
+
+![Image_text](https://github.com/suarezgarciaroberto/twt/blob/master/assets/images/logo-300.png)
+
+<div align="center">
+
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+
+</div>
+
+</div>
+
 Este proyecto forma parte de una de las tareas del <a href="https://www.masterd.es/master-en-programacion-web-y-movil">máster en programación multiplataforma</a> de MasterD.
 
 ## **Tabla de contenidos**
@@ -11,12 +29,12 @@ Este proyecto forma parte de una de las tareas del <a href="https://www.masterd.
   - [**Realización de los objetivos**](#realización-de-los-objetivos)
   - [**Demo**](#demo)
   - [**Capturas de pantalla**](#capturas-de-pantalla)
-  - [**Tecnologías empleadas**](#tecnologías-empleadas)
-  - [**Mejoras**](#mejoras)
+  - [**Local setup**](#local-setup)
+  - [**Pros y contras**](#pros-y-contras)
 
 ## **Información general**
 
-**Fecha**: Julio de 2021.<br/>
+**Fecha**: Enero de 2021.<br/>
 **Duración**: 3 meses.<br/>
 
 Esta tarea es la continuación de otra en la que se pedía un sitio web que podía pertenecer a una empresa ficticia o a un portfolio de programador. Los requisitos de dicha tarea eran los siguientes:
@@ -51,23 +69,22 @@ Basándome en esto, realicé la tarea que se muestra en este repositorio cumplie
 
 ## **Demo**
 
-<a href="https://theworkertree.herokuapp.com/">The Worker Tree</a>
-
-Los datos se restablecen con los valores por defecto cada vez que se reinicia el servidor.
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=theworkertree&style=flat) <a href="https://theworkertree.herokuapp.com/">The Worker Tree</a>
 
 ## **Capturas de pantalla**
 
 (To Do)
 
-## **Tecnologías empleadas**
+## **Local setup**
 
-(añadir badges)
-HTML5, CSS3, JavaScript, PHP, MySQL
+* Clonar este repositorio
+* Crear una base de datos y acceder a ésta desde un gestor de bases de datos como PhpMyAdmin, DBeaver...
+* Utilizar el contenido del archivo _init_db.sql_ para inicializar la base de datos
 
-## **Mejoras**
+## **Conclusiones**
 
-En el futuro me gustaría incluir las siguientes mejoras al proyecto:
-* Incluir algún framework que permita tener un código más limpio y ordenado.
-* Incluir la posibilidad de subir, editar y/o borrar las imágenes en el servidor.
-* Automatizar el redireccionamiento a la página de cambiar contraseña si se detecta que la contraseña de un usuario coincide con _"password"_
-* Realizar un proyecto nuevo basado en éste utilizando Java en el backend.
+* Podría haber incluido algún framework que permita tener un código más limpio y ordenado, pero en su momento preferí hacerlo prescindiendo de ello para aprender bien las bases de php.
+* En el futuro me gustaría replicar este proyecto en Java + VueJS para aplicar lo que he aprendido los últimos meses y añadiendo algunas mejoras como:
+  * Insertar, actualizar o borrar imágenes del servidor (sección de administrador)
+  * Autenticación de usuario con token y mayor cifrado de contraseñas.
+  * Mejorar el diseño: hacerlo más dinámico, responsive, una mejor elección de colores, logo, imágenes...
