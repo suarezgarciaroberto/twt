@@ -19,6 +19,7 @@ class Database {
   
   public function getConnection(){
     $this->conn = null;
+    echo $this->username;
     $this->conn = new mysqli($this->hostname,$this->username,$this->password,$this->database);
     if($this->conn->connect_errno){
       echo "An error occurred while trying to connect to the database.";
