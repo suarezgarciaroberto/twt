@@ -78,7 +78,11 @@ Usuarios de prueba:
 
 ## **Capturas de pantalla**
 
-(To Do)
+![Screenshot](https://github.com/suarezgarciaroberto/twt/blob/master/readme_images/home_screenshot.png)
+![Screenshot](https://github.com/suarezgarciaroberto/twt/blob/master/readme_images/projects_screenshot.png)
+
+![Screenshot](https://github.com/suarezgarciaroberto/twt/blob/master/readme_images/user_screenshot.png)
+![Screenshot](https://github.com/suarezgarciaroberto/twt/blob/master/readme_images/admin_screenshot.png)
 
 ## **Local setup**
 
