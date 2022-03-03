@@ -24,6 +24,9 @@
     <li class="nav-item" role="presentation">
       <a class="nav-link" id="noticias-tab" data-toggle="tab" href="#noticias" role="tab" aria-controls="noticias" aria-selected="false">Noticias</a>
     </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="mis-datos-tab" data-toggle="tab" href="#datos" role="tab" aria-controls="datos" aria-selected="false">Modificar mis datos</a>
+    </li>
   </ul>
   <div class="tab-content" id="admin-tabs-content">
     <?php 
@@ -31,6 +34,7 @@
     include_once "user_sections/admin/projects_list_form.php";
     include_once "user_sections/admin/dates_list_form.php";
     include_once "user_sections/admin/news_list_form.php";
+    include_once "user_sections/personal_data.php";
     ?>
   </div>
 </div>

@@ -35,7 +35,10 @@
         </div>
         <div class="form-group">
           <label for="role">Rol</label>
-          <input type="text" id="role-input" class="form-control user-input" name="role">
+          <select name="role" class="form-control role-select">
+            <option value="user" selected="true">Usuario</option>
+            <option value="admin">Administrador</option>
+          </select>
         </div>
         <div class="input-error"></div>
         <div class="form-group save-group">

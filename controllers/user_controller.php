@@ -110,6 +110,12 @@ class UserController{
       case 'getAll':
         echo $model->getAll();
         break;
+      case 'changePersonalData':
+        echo $this->users->updateReg($_SERVER['HTTP_USER_ID'],$_POST);
+        break;
+      case 'changePassword':
+        echo $this->users->changePassword($_SERVER['HTTP_USER_ID'],$_POST);
+        break;
       default:
         echo "Invalid Admin Action";
         break;
@@ -182,7 +188,8 @@ class UserController{
         'noticias' => $this->news->getAll(),
         'proyectos' => $this->projects->getAll(),
         'citas' => $this->dates->getAll(),
-        'usuarios' => $this->users->getAll()
+        'usuarios' => $this->users->getAll($user_id),
+        'user_data' => $this->users->getOne($user_id)
       );
     }else if($role == "user"){
       $initial_content = array(

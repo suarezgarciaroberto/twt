@@ -12,8 +12,8 @@ class UsersModel{
 
   // CRUD Operations & Close Connection
 
-  public function getAll(){
-    $sql = "SELECT `id`,".$this->columns." FROM `usuarios` WHERE 1";
+  public function getAll($adminId){
+    $sql = "SELECT `id`,".$this->columns." FROM `usuarios` WHERE `id` NOT LIKE ".$adminId;
     return $this->returnData($sql);
   }
 
