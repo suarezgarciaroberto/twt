@@ -20,13 +20,12 @@ Este proyecto forma parte de una de las tareas del <a href="https://www.masterd.
 
 </div>
 
-
 ## **Tabla de contenidos**
 
 - [**The Worker Tree**](#the-worker-tree)
   - [**Tabla de contenidos**](#tabla-de-contenidos)
   - [**Información general**](#información-general)
-  - [**Objetivo de la tarea**](#objetivo-de-la-tarea)
+  - [**Objetivos de la tarea**](#objetivos-de-la-tarea)
   - [**Realización de los objetivos**](#realización-de-los-objetivos)
   - [**Capturas de pantalla**](#capturas-de-pantalla)
   - [**Demo**](#demo)
@@ -46,7 +45,7 @@ Esta tarea es la continuación de otra en la que se pedía un sitio web que pod�
 
 Basándome en esto, realicé la tarea que se muestra en este repositorio cumpliendo con los objetivos que se describen en la siguiente sección.
 
-## **Objetivo de la tarea**
+## **Objetivos de la tarea**
 
 - Una base de datos que contenga las siguientes tablas:
   - Usuarios
@@ -83,7 +82,7 @@ Basándome en esto, realicé la tarea que se muestra en este repositorio cumplie
 
 ## **Demo**
 
-![Heroku](https://pyheroku-badge.herokuapp.com/?app=theworkertree&style=flat) <a href="https://theworkertree.herokuapp.com/">The Worker Tree</a>
+![Heroku](https://pyheroku-badge.herokuapp.com/?app=theworkertree&style=plastic) <a href="https://theworkertree.herokuapp.com/">The Worker Tree</a>
 
 Usuarios de prueba:
 
