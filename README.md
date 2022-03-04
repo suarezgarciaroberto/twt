@@ -90,6 +90,8 @@ Usuarios de prueba:
 - <p>admin@admin.com -- <i>admin123</i></p>
 - <p>lola@user.com -- <i>lola123</i></p>
 
+_La base de datos restablece los valores por defecto a diario a las 6:30 am UTC._
+
 ## **Local setup**
 
 - Clonar este repositorio
